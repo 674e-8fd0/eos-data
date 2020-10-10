@@ -1,0 +1,31 @@
+ ./cleos wallet create --name my-new-wallet --file my-new-wallet.txt
+
+# 默认打开default,有open没有close
+$ ./cleos wallet open
+$ ./cleos wallet open -n second-wallet
+
+$ ./cleos wallet lock
+$ ./cleos wallet lock -n second-wallet
+
+$ ./cleos wallet lock_all
+
+$ ./cleos wallet unlock -n second-wallet --password PW5Ji6JUrLjhKAVn68nmacLxwhvtqUAV18J7iycZppsPKeoGGgBEw
+
+$ ./cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+
+# Lists opened wallets
+$ ./cleos wallet list
+
+# 所有解锁钱包的公钥列表。这些键可以用来签署transaction。
+$ ./cleos wallet keys
+
+# 在钱包中创建一个密钥对，这样您就不需要像使用cleos创建密钥那样手动导入它了。默认情况下，这将创建钱包的密钥是K1密钥。但是这个命令也允许您创建R1格式的键。
+$ cleos wallet create_key K1
+
+# 可以查询单个钱包的公钥对和私钥对。钱包必须已经打开，你必须再次输入密码。
+$ cleos wallet private_keys K1
+
+
+K1:
+EOS5x2bLe9YVefKbNez1wUXQ3MuLmWnmy157uA8sETGcTCRWZhgUV"
+

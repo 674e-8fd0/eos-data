@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eos4j:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/eos4j_war</output-path>
+    <root id="archive" name="eos4j_war.war">
+      <element id="artifact" artifact-name="eos4j:war exploded" />
+    </root>
+  </artifact>
+</component>

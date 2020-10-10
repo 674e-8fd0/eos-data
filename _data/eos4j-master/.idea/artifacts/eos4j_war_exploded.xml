@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="eos4j:war exploded">
+    <output-path>D:/softwrae/Tomcat/apache-tomcat-8.5.50/wtpwebapps/eos</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eos4j" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.12.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.15.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
+          <element id="library" level="project" name="Maven: com.squareup.retrofit2:retrofit:2.5.0" />
+          <element id="library" level="project" name="Maven: com.squareup.retrofit2:converter-jackson:2.5.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="file-copy" path="D:/softwrae/idea2019/idea/jar/mysql-connector-java-5.1.7-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="eos4j/web/Web" />
+    </root>
+  </artifact>
+</component>

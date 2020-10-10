@@ -1,0 +1,48 @@
+============= 通过种子生成私钥 ===============
+private key :5KJAD8QQsEuLyZm7VAhLP4dYjCLWgXbNvaD9YiRhjDNLfhXQ4FL
+
+private1 key :5KWfrxtnQbSw5GpqU9DSFeZPU9BDZu8Dm9z2PkXvUAnUjVUoJN3
+
+============= 通过私钥生成公钥 ===============
+public key :EOS84PzdssRQTry4FSSuWh5R8xBjkYSPF8U8rkotqiTvDjzkCVsGc 
+ 
+public1 key :EOS84PzdssRQTry4FSSuWh5R8xBjkYSPF8U8rkotqiTvDjzkCVsGc 
+ 
+============= 创建钱包 ===============
+钱包密码"PW5JRdr682XaN4jZM2gLK2y2qhPm1FgaSQxeMeSwWRLpAeGeLHRsP"
+============= 导入私钥到钱包 ===============
+============= 创建账户不抵押 ===============
+K4H4fUmP3gvq6U8UqQx5ua8HQJ1EbjvEp3Na3Ep2f6G3yi62PavKDQ4nuniKCVYy6EBbsGWcfLQAFzV3uWFWVX9hWWSRDq
+{"compression":"none","transaction":{"expiration":"2020-03-19T08:22:27","ref_block_num":74,"ref_block_prefix":3024314567,"net_usage_words":0,"max_cpu_usage_ms":0,"delay_sec":0,"context_free_actions":[],"actions":[{"account":"eosio","name":"newaccount","authorization":[{"actor":"eosio","permission":"active"}],"data":"0000000000ea305500a6823403ea305501000000010003a195af659ed37ccbb5cb591f95610de4620e7bbb0434f573b3b5637655d38c110100000001000000010003a195af659ed37ccbb5cb591f95610de4620e7bbb0434f573b3b5637655d38c1101000000"},{"account":"eosio","name":"buyrambytes","authorization":[{"actor":"eosio","permission":"active"}],"data":"0000000000ea305500a6823403ea305500200000"}],"transaction_extensions":[]},"signatures":["SIG_K1_K4H4fUmP3gvq6U8UqQx5ua8HQJ1EbjvEp3Na3Ep2f6G3yi62PavKDQ4nuniKCVYy6EBbsGWcfLQAFzV3uWFWVX9hWWSRDq"]}
+创建成功 = 796868f93a4131f0a649e2f8325e5313778f24f4735978b81177536793d9ffd9 
+ 
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+============= 通过种子生成私钥 ===============
+private key :5JNLHDJfxYpLhtd6RL84SfA56RmTxE9sypPobCTHFdaxzS52Jun
+
+private1 key :5KYT98yus4mL1GPryQPH8zRPXQAPJBNz6QHwdM82y8kmsk1e7q2
+
+============= 通过私钥生成公钥 ===============
+public key :EOS87t6ETKEfzCcUHAszdwvqZTkr2HM1YYAwGtC3E7TgBrL3xFSRv 
+ 
+public1 key :EOS87t6ETKEfzCcUHAszdwvqZTkr2HM1YYAwGtC3E7TgBrL3xFSRv 
+ 
+============= 创建钱包 ===============
+钱包密码"PW5Hs1Uvn65AU8Hc6WqQ8kTz36Yp7fqyTzaoDwvz7GzWyX6rnfqnh"
+============= 导入私钥到钱包 ===============
+============= 创建账户不抵押 ===============
+K2Cn6CjNaHysjYQhqZrNUQfJnHYNpYyt58rfavczz4J91TjdvFfNZuW7chtYvLDJ768gjXW2uQoP8k3in1ivZa7mrd3xHm
+{"compression":"none","transaction":{"expiration":"2020-03-19T08:38:34","ref_block_num":2007,"ref_block_prefix":2114446997,"net_usage_words":0,"max_cpu_usage_ms":0,"delay_sec":0,"context_free_actions":[],"actions":[{"account":"eosio","name":"newaccount","authorization":[{"actor":"eosio","permission":"active"}],"data":"0000000000ea3055000000000000808f01000000010003a97f1b90da4c7a5147695326112c186d488f1c4c70d9d3a4e42aa743ad21489e0100000001000000010003a97f1b90da4c7a5147695326112c186d488f1c4c70d9d3a4e42aa743ad21489e01000000"},{"account":"eosio","name":"buyrambytes","authorization":[{"actor":"eosio","permission":"active"}],"data":"0000000000ea3055000000000000808f00200000"}],"transaction_extensions":[]},"signatures":["SIG_K1_K2Cn6CjNaHysjYQhqZrNUQfJnHYNpYyt58rfavczz4J91TjdvFfNZuW7chtYvLDJ768gjXW2uQoP8k3in1ivZa7mrd3xHm"]}
+创建成功 = f60cec9703f139fa20bbd1867cff289da3e4df9e20e5aeb241c6e1780eeb0eaf 
+ 
+
+Process finished with exit code 0

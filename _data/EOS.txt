@@ -1,0 +1,100 @@
+启动单节点测试 /启动nodeos命令（nodeos）
+~/eos/build/programs/nodeos，然后执行
+
+./nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin
+
+"45771bc1583bbb32f9e470abfdc9694143b29dd5b47ad24e8902ba059b4bd0d0"
+nodeos -e -p eosio --plugin eosio::wallet_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin   
+
+rm -rf ~/.local/share/eosio/nodeos/data/ ~/eosio-wallet/default.wallet 
+#/.local是隐藏文件夹
+
+./cleos set contract eosio.token ~/eos/unittests/contracts/eosio.token
+关闭方法
+在出块的终端内，使用快捷键ctrl+z，暂停nodeos运行。
+然后使用jobs命令，查看被挂起的应用，获取nodeos后台id
+然后使用kill %1，终
+止后台应用。
+然后再用jobs看一下，nodeos应用是否已经关闭
+./cleos wallet keys
+[
+  "EOS5MrdCYY95h4AnHttRhgWPDSatGTzUYfDf6xBd3zS3tRtGwP1Qy"
+]
+。、cleos
+
+defult--"PW5JhUSR2uAKWTLiNLUTuN1SpRngKfLQy2H46R2rH58iKRKshbL8S"
+              PW5KiLXeCN8oHpDKG4eQZTSb9EvJux6NCg83eBVeEUp6rgmXhkvWk
+password: [[
+    "EOS5nVewCcmcZcC1i74aaphVE3TCQPZ5kFGXRpXGFPTB65MtaWWyt",
+    "5JKUoQ8Qx7JdbWmREX5ADYiYSshwtpUi3m3Q4DqRoczphhg5rBC"
+  ],[
+    "EOS5x2bLe9YVefKbNez1wUXQ3MuLmWnmy157uA8sETGcTCRWZhgUV",
+    "5J2X5sAYFFMTK7V9h5nJYei3GTMFxKfdHq6Vt8dGRq5gAiG4XS8"
+  ],[
+    "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+    "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"
+  ],[
+    "EOS8HfadwqVGTqdr89VNeARjc2x7dAWB4Li3cH1XPC4nVrpjECVtD",
+    "5Js1YZ6nprws6LCwUfYJ7ZfDmCj2SfqKtdamPWkXGE5pUeyJvCu"
+  ],[
+    "EOS8hMX1t66NSKDknVpo5gZFKbBEg29Au9RarGPSHaoZ2bvGR8tHp",
+    "5KSzxyw2vwTurxBSzfYhmCu4xLvnaErEoPL2jX2Bi45bFeoL5bJ"
+  ]
+]
+
+
+ly--"PW5JbvWR377LQQb99QpYLmXTZndpD1WXiXc8BpXKs9ekd9miE8bNZ"
+ly
+password: [[
+    "EOS5AWdrZc1dV7ViQv97tfPVMTuWt4Q2mddmkJU9cZKkRdrarvy8W",
+    "5KUuMKjSEtZnQtoRFboy4fqCf1mSwPnzx4yq21L8eijmqG8pVsm"
+  ],[
+    "EOS5MrdCYY95h4AnHttRhgWPDSatGTzUYfDf6xBd3zS3tRtGwP1Qy",
+    "5KbmoTFTJkUUCZfz2QvY16yHAYyDuUnhaGvAuzveDhSEdrSvGo6"
+  ],[
+    "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+    "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"
+  ]
+]
+
+
+
+
+test1-- PW5JesTiHE9KpervjEyCUrbipa8frzPfscS2P3RmRjLaaFyw6vujj
+
+
+Private key: 5Js1YZ6nprws6LCwUfYJ7ZfDmCj2SfqKtdamPWkXGE5pUeyJvCu
+Public key: EOS8HfadwqVGTqdr89VNeARjc2x7dAWB4Li3cH1XPC4nVrpjECVtD
+Private key: 5KSzxyw2vwTurxBSzfYhmCu4xLvnaErEoPL2jX2Bi45bFeoL5bJ
+Public key: EOS8hMX1t66NSKDknVpo5gZFKbBEg29Au9RarGPSHaoZ2bvGR8tHp
+
+test
+PW5HzAwqdNVqXTtXfAD8mYsJ8qVr5KnJZJ9mUSGp2JMMMsaDLtkHv
+Private key: 5HsGytKhLZi8z6KE23SCxjXJeArPpHNF5GQYchM8mEksVpWYLq6
+Public key: EOS5FoQTTYNm2XN3r5xXETkrUPUzvujrNzdaSykJfy3ZMsaMVUjdt
+Private key: 5J5ns7hT6UiZHCoJS36qizj8Zsj47We8TTjAAaFAhDiTiE76GFq
+Public key: EOS8m1AjAgvKxx9VihZiCe98DQaHFdweUVyfhsFJTmhPuPPoWDv6y
+
+alex-wallet
+PW5KKWekkxJ5uXnzLeQzaq4V8fBhcFrGFCjfEsLh7xgXEM7rBsa1a
+Private key: 5KPMQ6qmeK1FPVav1gMSggk1v24dTWtPh8wDzqpiAGhYUKnL6LE
+Public key: EOS6WtPphBWibQNnsq5JWbN45UC1ep13AQRTMpqX8vKHMBPXg5uR7
+Private key: 5KSoBmANt3oW1azcBrV6BhkpZ2XnTRZaie9ebbhsjPkYQ9L8o1G
+Public key: EOS8XGxvbmWvvYMomEhz6f1mN1LNG7CpfvbPckNj2QDeY61dsBUjc
+
+EOS5nVewCcmcZcC1i74aaphVE3TCQPZ5kFGXRpXGFPTB65MtaWWyt
+
+
+
+
+
+
+
+
+./cleos get accounts EOS8WYXT3AskcXWKZHj3d3eQsCBv8hMiq12D9Cya1V8D342cygNvP
+
+部署合约:
+./cleos set contract ly ~/Download/eos/unittests/contracts/eosio.token
+
+
+

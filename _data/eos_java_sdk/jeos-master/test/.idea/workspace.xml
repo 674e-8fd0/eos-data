@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c0d01f8-cf2b-42ae-bc41-6f25c3d9aa38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yyg2I7gJxo0ty6zh9kWKM5aP5d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c0d01f8-cf2b-42ae-bc41-6f25c3d9aa38" name="Default Changelist" comment="" />
+      <created>1583920039104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583920039104</updated>
+      <workItem from="1583920044296" duration="18000" />
+      <workItem from="1583921114383" duration="2649000" />
+      <workItem from="1584024549499" duration="2669000" />
+      <workItem from="1584035233890" duration="21000" />
+      <workItem from="1584038095403" duration="3000" />
+      <workItem from="1584263509475" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="201" width="1030" height="675" key="#Project_Structure" timestamp="1583920065141">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="540" y="201" width="1030" height="675" key="#Project_Structure/65.24.1855.1056@65.24.1855.1056" timestamp="1583920065141" />
+    <state x="65" y="24" width="1855" height="1056" key="Maven.ArtifactSearchDialog" timestamp="1583922271754">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="65" y="24" width="1855" height="1056" key="Maven.ArtifactSearchDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1583922271754" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

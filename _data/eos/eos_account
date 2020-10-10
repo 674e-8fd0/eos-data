@@ -1,0 +1,19 @@
+./cleos get account ly
+created: 2020-03-08T12:28:45.500
+permissions: 
+     owner     1:    1 EOS5MrdCYY95h4AnHttRhgWPDSatGTzUYfDf6xBd3zS3tRtGwP1Qy
+        active     1:    1 EOS5AWdrZc1dV7ViQv97tfPVMTuWt4Q2mddmkJU9cZKkRdrarvy8W
+memory: 
+     quota:       unlimited  used:      2.66 KiB  
+
+net bandwidth: 
+     used:               unlimited
+     available:          unlimited
+     limit:              unlimited
+
+cpu bandwidth:
+     used:               unlimited
+     available:          unlimited
+     limit:              unlimited
+
+

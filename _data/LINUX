@@ -1,0 +1,12 @@
+
+git clone https://github.com/EOSIO/eos --recursive
+
+sudo gedit /etc/hosts
+
+sudo /etc/init.d/networking restart
+
+http://tool.chinaz.com/dns/
+
+github.com
+
+github.global.ssl.fastly.net

@@ -1,0 +1,59 @@
+EOS,怎么链接到主网，并得到主网价值的币
+
+DAPP
+1.完全开源自治
+2.<=0.51 Token
+3.数据公开加密存储在区块链上
+4.Token机制，节点维护者有奖励
+5.Toke的产生必须有标准的算法和奖励制度
+
+   EOS JAVA SDK：
+        https://github.com/adyliu/jeos
+        https://github.com/EOSIO/eosio-java
+
+    EOS配置及源代码：
+        https://github.com/EOSIO/eos
+         　 2020-02-21 18:47:42
+实现 币1、币2 在EOS公链的发行
+2、接口，使用Spring Boot作为框架，结合EOS JAVA SDK。实现：
+    接口1：为某一用户创建钱包，并将 钱包地址、公钥(?)、私钥 存储在数据库中，返回钱包地址
+        输入：无
+        输出：钱包地址
+
+    接口2：将用户A一定数量的 币1（币2） 转移到 用户B的钱包中
+        输入：用户A的钱包地址、用户B的钱包地址、要转移币2的数量
+        输出：转账是否成功。成功输出1，不成功输出-1和不成功原因(例如：余额不足)
+
+    接口3：用户A持有币1（币2）的数量
+        输入：用户A的钱包地址
+        输出：用户A币1（币2）的数量
+        
+    接口4：所有持有币1（币2）用户的持有数量排行榜
+        输入：无
+        输出：从持有量最多到持有量最少排行榜。
+3、考虑如何将虚拟币融入社区
+
+提示：
+    1、接口中的“用户的钱包”既指 平台使用者的钱包 也指 平台的钱包。
+    2、接口开发语言使用java。前期调试可直接创建函数进行测试，后期再将函数变为接口。接口可使用Servlet或Spring Boot作为框架，但Spring Boot更加简单，Servlet更加底层所以相对比较复杂。
+
+
+相关资源：
+    EOS JAVA SDK：
+        https://github.com/adyliu/jeos
+        https://github.com/EOSIO/eosio-java
+
+    EOS配置及源代码：
+        https://github.com/EOSIO/eos
+
+    数据库：
+        主机：cdb-box97608.bj.tencentcdb.com
+        端口：10188
+        用户名：root
+        密码：19990206lyz
+        数据库：zhishu_blockchain_system
+
+    推荐软件：
+        数据库管理：Navicat
+        Java IDE: IDEA
+        接口调试：Postman

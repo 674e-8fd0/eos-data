@@ -1,0 +1,512 @@
+000000.000| ALWAYS| Logging started at 2020-07-25T18:54:34.054
+000000.001| ALWAYS| Application Version:10.15.328.8759 - CL:3288759 - Build Date: Jul 15 2020 - Build Time:16:14:20
+000000.001| ALWAYS| Log file c:/_data/wegame/wegameapps/英雄联盟/LeagueClient/../Game/Logs/LeagueClient Logs/2020-07-25T18-54-34_22008_LeagueClientUx.log
+000000.001| ALWAYS| Running LeagueClientUx version 10.15.328.8759
+000000.001|   OKAY| Initial working directory: "c:\_data\wegame\wegameapps\Ӣ������\LeagueClient"
+000000.001|   OKAY| Current process: "C:\_data\wegame\WeGameApps\英雄联盟\LeagueClient\LeagueClientUx.exe"
+000000.001|   OKAY| Command line arguments:
+	--riotclient-auth-token=TiGLdRA4RNJenveBT3PiLg
+	--riotclient-app-port=1718
+	--riotclient-tencent
+	--no-rads
+	--disable-self-update
+	--region=TENCENT
+	--locale=zh_CN
+	--t.lcdshost=wt6-c-feapp.lol.qq.com
+	--t.chathost=wt6-c-ejabberd.lol.qq.com
+	--t.lq=https://wt6-c-login.lol.qq.com:8443
+	--t.storeurl=https://wt6-c-store.lol.qq.com
+	--t.rmsurl=wss://tjcloud-rms.lol.qq.com:443
+	--rso-auth.url=https://prod-rso.lol.qq.com:3000
+	--rso_platform_id=WT6
+	--rso-auth.client=lol
+	--t.location=loltencent.tjcloud.WT6
+	--tglog-endpoint=https://tglogsz.datamore.qq.com/lolcli/report/
+	--t.league_edge_url=https://ledge-wt6.lol.qq.com:22019
+	--ccs=https://cc-wt6.lol.qq.com:8093
+	--remoting-auth-token=1d90w4vZ28YotpNVL851bw
+	--app-port=1751
+	--install-directory=c:\_data\wegame\wegameapps\鑻遍泟鑱旂洘\LeagueClient
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--crash-reporting=bugsplat
+	--crash-environment=WT6
+	--app-log-file-path=c:/_data/wegame/wegameapps/英雄联盟/LeagueClient/../Game/Logs/LeagueClient Logs/2020-07-25T18-54-33_20632_LeagueClient.log
+	--app-pid=20632
+	--output-base-dir=c:/_data/wegame/wegameapps/鑻遍泟鑱旂洘/LeagueClient/../Game
+	--no-proxy-server
+000000.001|   OKAY| Memory Monitor enabled:
+000000.001|   OKAY| - update interval 5s
+000000.001|   OKAY| - memory delta threshold 10MiB
+000000.001|   OKAY| - page fault delta threshold 100K
+000000.001|   OKAY| - region count delta threshold 10
+000000.003|   OKAY| Working Set Size: 12MiB Peak: 12MiB   Pagefile Usage: 57MiB Peak: 57MiB   Private Usage: 57MiB
+000000.003|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.003|   OKAY| Committed Total: 204MiB   Committed Image: 148MiB   Committed Mapped: 4MiB   Committed Private: 51MiB   Reserved Total: 33MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 11MiB   Free Total: 3858MiB   Limit: 4095MiB   Largest Free: 2044MiB   Region Count: 637
+000000.003|   OKAY| Page Fault Count: 3K
+000000.010| ALWAYS| Using Ux render executable path: LeagueClientUxRender.exe
+000000.010| ALWAYS| Skipping Unsupported Argument: ccs
+000000.011| ALWAYS| Skipping Unsupported Argument: disable-features
+000000.011| ALWAYS| Skipping Unsupported Argument: disable-self-update
+000000.011| ALWAYS| Skipping Unsupported Argument: no-rads
+000000.011| ALWAYS| Skipping Unsupported Argument: product-version
+000000.011| ALWAYS| Skipping Unsupported Argument: riotclient-app-port
+000000.011| ALWAYS| Skipping Unsupported Argument: riotclient-auth-token
+000000.011| ALWAYS| Skipping Unsupported Argument: riotclient-tencent
+000000.011| ALWAYS| Skipping Unsupported Argument: rso-auth.client
+000000.011| ALWAYS| Skipping Unsupported Argument: rso-auth.url
+000000.011| ALWAYS| Skipping Unsupported Argument: rso_platform_id
+000000.011| ALWAYS| Skipping Unsupported Argument: t.chathost
+000000.011| ALWAYS| Skipping Unsupported Argument: t.lcdshost
+000000.011| ALWAYS| Skipping Unsupported Argument: t.league_edge_url
+000000.011| ALWAYS| Skipping Unsupported Argument: t.location
+000000.011| ALWAYS| Skipping Unsupported Argument: t.lq
+000000.011| ALWAYS| Skipping Unsupported Argument: t.rmsurl
+000000.011| ALWAYS| Skipping Unsupported Argument: t.storeurl
+000000.011| ALWAYS| Skipping Unsupported Argument: tglog-endpoint
+000000.011| ALWAYS| Cef CommandLine: c:/_data/wegame/wegameapps/英雄联盟/LeagueClient/LeagueClientUx.exe --app-log-file-path="c:/_data/wegame/wegameapps/英雄联盟/LeagueClient/../Game/Logs/LeagueClient Logs/2020-07-25T18-54-33_20632_LeagueClient.log" --app-name=LeagueClient --app-pid=20632 --app-port=1751 --browser-subprocess-path=LeagueClientUxRender.exe --crash-environment=WT6 --crash-reporting=bugsplat --install-directory="c:\_data\wegame\wegameapps\鑻遍泟鑱旂洘\LeagueClient" --lang=en-US --locale=zh_CN --log-dir="LeagueClient Logs" --log-file="c:\_data\wegame\wegameapps\英雄联盟\LeagueClient\debug.log" --no-proxy-server --no-sandbox --output-base-dir=c:/_data/wegame/wegameapps/鑻遍泟鑱旂洘/LeagueClient/../Game --region=TENCENT --remoting-auth-token=1d90w4vZ28YotpNVL851bw --ux-helper-name=LeagueClientUxHelper --ux-name=LeagueClientUx --disable-spell-checking --no-displaying-insecure-content --force-device-scale-factor=1 --disable-features=NetworkService,HardwareMediaKeyHandling --autoplay-policy=no-user-gesture-required --disable-extensions
+000000.079| ALWAYS| Initial dpiScale = 1.000000
+000000.079| ALWAYS| Using cookie store at c:/_data/wegame/wegameapps/鑻遍泟鑱旂洘/LeagueClient/../Game/Cookies
+000000.079|   OKAY| Creating browser process.
+000000.080| ALWAYS| App file system path is: c:\_data\wegame\wegameapps\Ӣ������\LeagueClient\
+000000.080| ALWAYS| Plugins file system path used : Plugins\.
+000000.080| ALWAYS| CEF Version: 74.1.19+gb62bacf+chromium-74.0.3729.157
+000000.080| ALWAYS| Trying to connect to app process, multiple attempts are normal.
+000000.611|   WARN| RemotingClientTransport: Couldn't connect to host, select() timed out after 500ms.
+000001.164|   WARN| RemotingClientTransport: Couldn't connect to host, select() timed out after 500ms.
+000001.718|   WARN| RemotingClientTransport: Couldn't connect to host, select() timed out after 500ms.
+000002.272|   WARN| RemotingClientTransport: Couldn't connect to host, select() timed out after 500ms.
+000002.337| ALWAYS| Connected to app process after 5 attempts.
+000002.352| ALWAYS| Backend process is now running, will proceed with 0 delayed tasks.
+000002.368|   WARN| Plugin desc for rcp-fe-gdp-live contains a different version "1.7.0" than expected "1.6.5" that is compatible.
+000002.411|   OKAY| Setting mouse intercept hook.
+000002.441|   OKAY| New window requested at 0,0 with dimensions 1280,720.
+000002.442|   OKAY| Creating ux window with url https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html.
+000002.442| ALWAYS| Deleting non-whitelisted cookies
+000002.442|   OKAY| Running message loop.
+000002.445| ALWAYS| Deleting cookie (eas_sid) with domain (.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (eas_entry) with domain (lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (LW_sid) with domain (.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (LW_uid) with domain (.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (isHostDate) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (PTTuserFirstTime) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (isOsSysDate) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (PTTosSysFirstTime) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (isOsDate) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (PTTosFirstTime) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (ts_last) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (pgv_pvid) with domain (.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (ts_uid) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (weekloop) with domain (.lol.qq.com) which does not match whitelist
+000002.445| ALWAYS| Deleting cookie (tcls_pop) with domain (.lol.qq.com) which does not match whitelist
+000002.627|   OKAY| Creating main WindowAppModule window 1.
+000002.632|   OKAY| Creating main browser window 1.
+000002.640|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = -4, uri = "", loading = true
+000002.641|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = -4, frameId = -4, mainUri = "", uri = "", transitionType = "TT_EXPLICIT", request = "GET https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", isRedirect = false
+000002.758|   OKAY| render_pid = 18208
+000002.775|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 3, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html"
+000002.789|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 3, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", httpStatusCode = 404
+000002.791|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = 3, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/bootstrap.html", transitionType = "TT_EXPLICIT", request = "GET https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", isRedirect = false
+000002.806|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 3, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html"
+000002.811|   WARN| js: HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.
+000002.854| ALWAYS| Window 1 is now visible.
+000002.854|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 3, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", httpStatusCode = 200
+000002.854|   OKAY| Loaded url https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html in 79 ms.
+000002.856|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+000002.888| ALWAYS| js: WebSocket event: OPEN (https://127.0.0.1:1751/fe/plugin-runner/rcp-fe-plugin-runner.js:1)
+000002.888| ALWAYS| js: WAMP Handshake complete (https://127.0.0.1:1751/fe/plugin-runner/rcp-fe-plugin-runner.js:1)
+000003.413|   WARN| js: document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details. (https://127.0.0.1:1751/fe/lol-uikit/rcp-fe-lol-uikit.js:1)
+000003.460|   WARN| js: Element.createShadowRoot is deprecated and will be removed in M73, around March 2019. Please use Element.attachShadow instead. See https://www.chromestatus.com/features/4507242028072960 for more details. (https://127.0.0.1:1751/fe/lol-uikit/rcp-fe-lol-uikit.js:1)
+000003.572|  ERROR| js: Uncaught (in promise) TypeError: Cannot read property 'querySelector' of undefined (https://127.0.0.1:1751/fe/rpcs/rpcs_init.js:1)
+000003.804| ALWAYS| js: init lwd messenger (webpack:///./lwd_messenger.js?:163)
+000003.804| ALWAYS| js: register lwd message: show-popup-upload-file (webpack:///./lwd_messenger.js?:88)
+000003.804| ALWAYS| js: register lwd message: friend-request (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: show-msgbox (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: hide-msgbox (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: toggle-msgbox (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: register-msg (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: unregister-msg (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: send-msg (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: show_antiAddiction (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: hide_antiAddiction (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: toggle_antiAddiction (webpack:///./lwd_messenger.js?:88)
+000003.808| ALWAYS| js: register lwd message: close_client (webpack:///./lwd_messenger.js?:88)
+000003.809| ALWAYS| js: register lwd message: antiAddiction_setTime (webpack:///./lwd_messenger.js?:88)
+000003.809| ALWAYS| js: send_rpcs_msg (webpack:///./lwd_messenger.js?:71)
+000003.809| ALWAYS| js: register lwd message: open-full-tv-page (webpack:///./lwd_messenger.js?:88)
+000003.809| ALWAYS| js: register lwd message: close-tv-pop (webpack:///./lwd_messenger.js?:88)
+000003.810| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000003.810| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000004.038| ALWAYS| js: lwd (webpack:///./lcu_event.js?:46)
+000004.038| ALWAYS| js: lwd (webpack:///./lcu_event.js?:46)
+000004.038| ALWAYS| js: lwd (webpack:///./lcu_event.js?:38)
+000004.038| ALWAYS| js: lwd (webpack:///./lcu_event.js?:38)
+000004.213| ALWAYS| js: Custom Elements: detected CEF 74 and registerElement API using v0 (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000004.495| ALWAYS| js: plugin:navigation:patcher-basic-button-component willInsertElement() element exists, adding eventHandler +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000004.507|   WARN| js: rcp-fe-lol-uikit:warn Element deprecation warning: +0ms (https://127.0.0.1:1751/fe/lol-uikit/rcp-fe-lol-uikit.js:1)
+000004.561|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +0ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000004.570| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000004.570| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000004.601|   WARN| js: ux-settings:warn Get machine spec 5 +0ms (https://127.0.0.1:1751/fe/lol-shared-components/rcp-fe-lol-shared-components.js:1)
+000004.695|   WARN| js: rcp-fe-lol-navigation:warn A menu item could not be found with the passed key. Please make sure that you are using as the key the object returned by `addMenuItem()` Or one with a properly configured id. The menu item will now be looked up by `displayNameLocKey`. +134ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000004.696|   WARN| js: rcp-fe-lol-navigation:warn A menu item could not be found with the passed key. Check that it has been registered in navigation with `addMenuItem()` +1ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000004.777| ALWAYS| js: rcp-fe-lol-esports-spectate: Plugin lazy initialization started by https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js calling init (https://127.0.0.1:1751/fe/plugin-runner/rcp-fe-plugin-runner.js:1)
+000005.008|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+000005.008|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = -4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME", request = "GET https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751", isRedirect = false
+000005.035|   OKAY| Working Set Size: 95MiB (+83) Peak: 96MiB (+84)   Pagefile Usage: 96MiB (+39) Peak: 96MiB (+39)   Private Usage: 96MiB (+39)
+000005.039| ALWAYS| js: riotclient-lib-subnavigation:log show subsection overview +342ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000005.074|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751"
+000005.257| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000005.287|   WARN| js: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/. (https://ossweb-img.qq.com/images/js/milo_bundle/milo.js:1)
+000005.464|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = -4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME TT_CLIENT_REDIRECT_FLAG TT_IS_REDIRECT_MASK", request = "GET https://lol.qq.com/client/v2/index.html#/", isRedirect = false
+000005.558|  ERROR| BrowserProcess::OnLoadError browserId = 1, mainFrameId = 3, frameId = 4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751", failedUrl = "https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751"
+000005.558|   WARN| Failed to load URL "https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751" with error "ERR_ABORTED" (-3). ERR_ABORTED
+000005.558|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751", httpStatusCode = -3
+000005.558|   OKAY| Loaded url https://lol.qq.com/client/client_lcu.shtml#protocol=https:&port=1751 in 484 ms.
+000005.565|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/v2/index.html#/"
+000005.686| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000005.709| ALWAYS| js: 关闭引导页，直接进入 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.021| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.024| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.041|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = -4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME", request = "GET https://lol.qq.com/client/client_lcu_bg.html", isRedirect = false
+000006.041| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.041| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.041| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.054| ALWAYS| js: [ctips_lcu_https] postMessage:  (https://lol.qq.com/biz/tcls/ctips_lcu_https.js:63)
+000006.054| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.112|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 5, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/client_lcu_bg.html"
+000006.118|   WARN| js: rcp-fe-lol-l10n:warn You are using a deprecated moment API, please use tra.moment +0ms (https://127.0.0.1:1751/fe/lol-l10n/rcp-fe-lol-l10n.js:1)
+000006.163|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +1s (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000006.258| ALWAYS| js: 加载完成 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258| ALWAYS| js: iData流量管家广告位（ID:23395）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258| ALWAYS| js: bannerId is undefined (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258| ALWAYS| js: bannerId is undefined (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258| ALWAYS| js: bannerId is undefined (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258| ALWAYS| js: iData流量管家广告位（ID:23575）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.258|  ERROR| js: ReferenceError: PTTSendClick is not defined (https://lol.qq.com/client/v2/js/vendor.js?6511a9f5622d461ab90c:19)
+000006.336| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-missions:handleLoginSession unlocked after 4ms. +0ms (https://127.0.0.1:1751/fe/lol-lock-and-load/rcp-fe-lol-lock-and-load.js:1)
+000006.770| ALWAYS| js: [lcu-bg] (https://lol.qq.com/client/client_lcu_bg.html:16)
+000006.770| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.770| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.770| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.787|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/v2/index.html#/", httpStatusCode = 200
+000006.787|   OKAY| Loaded url https://lol.qq.com/client/v2/index.html#/ in 1222 ms.
+000006.802| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.804| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.804| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.805| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000006.816| ALWAYS| js: msgboxinit (https://lol.qq.com/client/v2/index.html:50)
+000006.817| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000006.822|  ERROR| js: Uncaught ReferenceError: PTTSendClick is not defined (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000006.992| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-parties:registerAndCreateApplication unlocked after 816ms. +656ms (https://127.0.0.1:1751/fe/lol-lock-and-load/rcp-fe-lol-lock-and-load.js:1)
+000007.018|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `priority` through the options hash. +863ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000007.018|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `active` through the options hash. +0ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000007.018|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `alignment` through the options hash. +0ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000007.018|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `iconPath` through the options hash. +0ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000007.018|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +0ms (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000009.942| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000009.943| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000009.943| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000010.035|   OKAY| Working Set Size: 120MiB (+25) Peak: 130MiB (+34)   Pagefile Usage: 121MiB (+25) Peak: 129MiB (+33)   Private Usage: 121MiB (+25)
+000010.288|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 6, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank"
+000010.309|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 6, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank", httpStatusCode = 0
+000010.309|   OKAY| Loaded url about:blank in 20 ms.
+000010.350| ALWAYS| js: loading倒计时5s结束 (webpack:///./popup_tv_home.js?:113)
+000010.382|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +0ms (https://127.0.0.1:1751/fe/lol-premade-voice/rcp-fe-lol-premade-voice.js:1)
+000010.382|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +1ms (https://127.0.0.1:1751/fe/lol-premade-voice/rcp-fe-lol-premade-voice.js:1)
+000010.412| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000010.434| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000010.434| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000010.434| ALWAYS| js: [ctips_lcu_https]get message: (https://lol.qq.com/biz/tcls/ctips_lcu_https.js:45)
+000010.436| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000010.440| ALWAYS| js: 非比赛服 (https://lol.qq.com/client/client_lcu_bg.html:26)
+000010.440| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000011.303| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000011.303| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000011.303| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000011.303| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000011.508| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000012.539| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000012.662| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000012.710|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +2s (https://127.0.0.1:1751/fe/lol-premade-voice/rcp-fe-lol-premade-voice.js:1)
+000012.803| ALWAYS| js: [lcu-bg] (https://lol.qq.com/client/client_lcu_bg.html:155)
+000012.804| ALWAYS| js: [rtpush] connecting...[Sat Jul 25 2020 18:54:46 GMT+0800 (China Standard Time)] (https://ossweb-img.qq.com/images/clientpop/js/rtpush/main7.js:29)
+000012.804| ALWAYS| js: 非游戏状态 (https://lol.qq.com/client/client_lcu_bg.html:29)
+000012.805| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:124)
+000012.817|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 0 +0ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000012.817|   WARN| js: plugin:champion-select:playerdata:warn champion inventory changed, length is 0 +4ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000012.817|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 0 +0ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000012.817|   WARN| js: plugin:champion-select:playerdata:warn logged in playerID is 4011392890 +0ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000012.994| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-champ-select:preload unlocked after 315ms. +6s (https://127.0.0.1:1751/fe/lol-lock-and-load/rcp-fe-lol-lock-and-load.js:1)
+000013.007| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.137| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.137| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.146|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = -4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME", request = "GET https://apps.game.qq.com//client_pop/idata_hall/tpl/322519/1.html?timestamp=&&client=lcu&uin=1575109778&area=20&node=1538&signature=&r=0.2797600410646526", isRedirect = false
+000013.147| ALWAYS| js: [ctips_lcu_https]get TCLSCTIPS cookie: (https://lol.qq.com/biz/tcls/ctips_lcu_https.js:158)
+000013.163| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000013.163|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 0 +345ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000013.306|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 5, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://lol.qq.com/client/client_lcu_bg.html", httpStatusCode = 200
+000013.306|   OKAY| Loaded url https://lol.qq.com/client/client_lcu_bg.html in 7193 ms.
+000013.307| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.394| ALWAYS| js: [rtpush] connected in 591 ms.[Sat Jul 25 2020 18:54:47 GMT+0800 (China Standard Time)] (https://ossweb-img.qq.com/images/clientpop/js/rtpush/main7.js:71)
+000013.394| ALWAYS| js: [rtpush] window.location.href = https://lol.qq.com/client/client_lcu_bg.html (https://ossweb-img.qq.com/images/clientpop/js/rtpush/main7.js:76)
+000013.395| ALWAYS| js: [rtpush] {"t":0,"d":["scene-lol-lcu","https://lol.qq.com/client/client_lcu_bg.html","1575109778"]} (https://ossweb-img.qq.com/images/clientpop/js/rtpush/main7.js:78)
+000013.396| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000013.433| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.433| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000013.477| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000013.477|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 7, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://apps.game.qq.com//client_pop/idata_hall/tpl/322519/1.html?timestamp=&&client=lcu&uin=1575109778&area=20&node=1538&signature=&r=0.2797600410646526"
+000014.163|   WARN| js: rcp-fe-lol-l10n:warn You are using a deprecated moment API, please use tra.moment +8s (https://127.0.0.1:1751/fe/lol-l10n/rcp-fe-lol-l10n.js:1)
+000014.231|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 7, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://apps.game.qq.com//client_pop/idata_hall/tpl/322519/1.html?timestamp=&&client=lcu&uin=1575109778&area=20&node=1538&signature=&r=0.2797600410646526", httpStatusCode = 200
+000014.231|   OKAY| Loaded url https://apps.game.qq.com//client_pop/idata_hall/tpl/322519/1.html?timestamp=&&client=lcu&uin=1575109778&area=20&node=1538&signature=&r=0.2797600410646526 in 754 ms.
+000014.233|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+000014.351|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+000014.352|   OKAY| BrowserProcess::OnBeforeBrowse browserId = 1, mainFrameId = 3, frameId = -4, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME", request = "GET https://apps.game.qq.com/ams/asyncCookie.html", isRedirect = false
+000014.559|   WARN| js: plugin:champion-select:playerdata:warn champion inventory changed, length is 150 +1s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000014.686|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 8, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://apps.game.qq.com/ams/asyncCookie.html"
+000014.773|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 8, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "https://apps.game.qq.com/ams/asyncCookie.html", httpStatusCode = 200
+000014.773|   OKAY| Loaded url https://apps.game.qq.com/ams/asyncCookie.html in 86 ms.
+000014.774|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+000015.036|   OKAY| Working Set Size: 133MiB (+13) Peak: 134MiB (+4)   Pagefile Usage: 134MiB (+13) Peak: 134MiB (+5)   Private Usage: 134MiB (+13)
+000016.059| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000016.059| ALWAYS| js: Send message:  (https://lol.qq.com/client/lcu/js/client-helper.js:113)
+000016.059| ALWAYS| js: message received (webpack:///./lwd_messenger.js?:128)
+000016.900|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +10s (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000017.132| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:1751/fe/ember-libs/rcp-fe-ember-libs.js:71099) ---
+000017.132| ALWAYS| js: Error: jsonRequest of /lol-clash/v1/awaiting-resent-eog failed with HTTP Error 404
+000017.132| ALWAYS| js:     at XMLHttpRequest.d.onreadystatechange (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1:103786)
+000017.132| ALWAYS| js: --- End Multiline ---
+000017.383| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1) ---
+000017.383|  ERROR| js: rcp-fe-lol-email-verification:error Error: Feature is disabled
+000017.383| ALWAYS| js:     at https://127.0.0.1:1751/fe/lol-email-verification/rcp-fe-lol-email-verification.js:4:56618 +13s
+000017.383| ALWAYS| js: --- End Multiline ---
+000017.417|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +5s (https://127.0.0.1:1751/fe/lol-premade-voice/rcp-fe-lol-premade-voice.js:1)
+000017.418|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +0ms (https://127.0.0.1:1751/fe/lol-premade-voice/rcp-fe-lol-premade-voice.js:1)
+000017.640|   WARN| js: rcp-fe-lol-l10n:warn You are using a deprecated moment API, please use tra.moment +3s (https://127.0.0.1:1751/fe/lol-l10n/rcp-fe-lol-l10n.js:1)
+000017.811| ALWAYS| js: rcp-fe-lol-loading-screen:log hideLoadingScreen took 13697.499999994761 ms to hide +0ms (https://127.0.0.1:1751/fe/lol-loading-screen/rcp-fe-lol-loading-screen.js:1)
+000017.812| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-lock-and-load:allPluginsLoaded unlocked after 14558ms. +5s (https://127.0.0.1:1751/fe/lol-lock-and-load/rcp-fe-lol-lock-and-load.js:1)
+000017.921| ALWAYS| js: rcp-fe-lol-npe-first-touch:log Not a new player +549ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000018.007| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000018.007| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000018.007| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000018.010| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000018.304|   WARN| js: rcp-fe-lol-career-stats:warn cannot load career stats games for undefined: Error: jsonRequest of /lol-career-stats/v1/summoner-games/723858be-13e8-5148-bd77-ecfa77f2341f failed with HTTP Error 401 +0ms (https://127.0.0.1:1751/fe/lol-career-stats/rcp-fe-lol-career-stats.js:1)
+000021.610| ALWAYS| js: plugin:navigation:patcher-basic-button-component raw click +4s (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.610| ALWAYS| js: plugin:navigation:patcher-basic-button-component click() +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.610| ALWAYS| js: plugin:navigation:patcher-basic-button-component click() isEnabled and not isShowingLobby +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.611| ALWAYS| js: plugin:navigation:patcher-play-button-service performMainAction() +1ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.611| ALWAYS| js: plugin:navigation:patcher-play-button-service performMainAction() isPlayBtn +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.611| ALWAYS| js: plugin:navigation:api-patcher-events trigger() playButton +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.611| ALWAYS| js: plugin:navigation:api-patcher-events this.subscribers[eventType].length === 4 +0ms (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000021.613|   WARN| js: plugin:parties:party-api:warn PLAY BUTTON CLICKED +0ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000021.639|   WARN| js: plugin:parties:party-api:warn SHOWING GAME SELECT +28ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000021.640|   WARN| js: plugin:parties:party-api:warn BUMPING PARTIES SCREEN ROOT +1ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000021.759| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000021.759| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000021.760|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+000021.760|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 9, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank"
+000021.788|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 9, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank", httpStatusCode = 0
+000021.788|   OKAY| Loaded url about:blank in 28 ms.
+000021.789|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+000021.811| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000021.818| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000022.002|   WARN| js: plugin:parties:party-api:warn LOCKING PLAY BUTTON +360ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000022.014| ALWAYS| js: setIsShowingLobby (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000022.015|   WARN| js: plugin:parties:party-api:warn PARTIES VISIBLE IN SCREEN ROOT +1ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000023.009| ALWAYS| js: loading倒计时5s结束 (webpack:///./popup_tv_home.js?:113)
+000024.194|   WARN| js: plugin:parties:lobbies-service:warn Creating new lobby with queueId: 430 +2s (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000024.361|   WARN| js: plugin:parties:party-api:warn PARTY CREATED (430) +167ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000024.459|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 0 +10s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000024.713|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 9 +256ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000025.038|   OKAY| Working Set Size: 145MiB (+12) Peak: 145MiB (+11)   Pagefile Usage: 144MiB (+10) Peak: 145MiB (+11)   Private Usage: 144MiB (+10)
+000025.353| ALWAYS| js: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000025.353| ALWAYS| js: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000025.355| ALWAYS| js: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000040.258| ALWAYS| js: iData流量管家广告位（ID:23399）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000040.258| ALWAYS| js: iData流量管家广告位（ID:23402）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000040.259| ALWAYS| js: iData流量管家广告位（ID:23401）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000040.259| ALWAYS| js: iData流量管家广告位（ID:23400）曝光上报 (https://lol.qq.com/client/v2/js/app.js?17d52f2ed0d7b23fbeb1:1)
+000040.259|  ERROR| js: ReferenceError: PTTSendClick is not defined (https://lol.qq.com/client/v2/js/vendor.js?6511a9f5622d461ab90c:19)
+000044.445|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 19 +20s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000044.454| ALWAYS| Window 1 is now visible.
+000044.471|   OKAY| Window 1 is activated.
+000047.257|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 125 +3s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000050.908| ALWAYS| Window 1 is now visible.
+000050.952|   OKAY| Window 1 is activated.
+000051.162|   WARN| js: plugin:parties:party-api:warn RELEASING PARTIES SCREEN ROOT +27s (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000051.190|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 128 +4s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000051.361| ALWAYS| js: Uncaught (in promise) Error: jsonRequest of /lol-chat/v1/conversations/active failed with HTTP Error 404 (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000051.538|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+000051.538|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 10, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank"
+000051.604|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 10, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank", httpStatusCode = 0
+000051.604|   OKAY| Loaded url about:blank in 65 ms.
+000051.604|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+000051.744|   WARN| js: plugin:parties:party-api:warn UNLOCKING PLAY BUTTON +591ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000051.744| ALWAYS| js: setIsShowingLobby (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000051.758| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000051.758| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000053.776| ALWAYS| js: loading倒计时50s结束 (webpack:///./popup_tv_home.js?:103)
+000053.776| ALWAYS| js: 启动函数 (webpack:///./popup_tv_home.js?:57)
+000055.043|   OKAY| Working Set Size: 156MiB (+11) Peak: 158MiB (+13)   Pagefile Usage: 155MiB (+11) Peak: 157MiB (+12)   Private Usage: 155MiB (+11)
+000056.420|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/actions/2","contentType":"application/json","data":"{\"championId\":58}","errorMessage":"error_could_not_select_champion","method":"PATCH"} +5s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000056.609|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/2 received response 204 +189ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000062.258|  ERROR| js: Uncaught (in promise) TypeError: Cannot read property 'data' of undefined (https://127.0.0.1:1751/fe/rpcs/rpcs_init.js:1)
+000083.213|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/actions/2","contentType":"application/json","data":"{\"championId\":63}","errorMessage":"error_could_not_select_champion","method":"PATCH"} +27s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000083.415|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/2 received response 204 +195ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000087.136|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/my-selection","contentType":"application/json","data":"{\"spell2Id\":14}","method":"PATCH","errorMessage":"error_could_not_set_spells"} +4s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000087.304|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/my-selection received response 204 +168ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000110.794|   WARN| js: plugin:champion-select:request:warn {"type":"PATCH","url":"/lol-champ-select/v1/session/actions/2","contentType":"application/json","data":"{\"completed\":true,\"championId\":63}","errorMessage":"error_could_not_lock_in"} +23s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000110.938|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/2 received response 204 +144ms (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000118.296| ALWAYS| Window 1 is now visible.
+000118.314|   OKAY| Window 1 is activated.
+000125.052|   OKAY| Working Set Size: 167MiB (+11) Peak: 168MiB (+10)
+000129.248| ALWAYS| Window 1 is now visible.
+000129.259|   OKAY| Window 1 is activated.
+000129.259|   OKAY| AllowSetForegroundWindow BrowserProcess worked 
+000129.547| ALWAYS| Window 1 is now minimized.
+000129.610| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000129.617| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+000129.938| ALWAYS| js: rcp-fe-lol-settings: Plugin lazy initialization started by https://127.0.0.1:1751/fe/app-controls/rcp-fe-app-controls.js calling close (https://127.0.0.1:1751/fe/plugin-runner/rcp-fe-plugin-runner.js:1)
+000130.045|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 0 +19s (https://127.0.0.1:1751/fe/lol-champ-select/rcp-fe-lol-champ-select.js:1)
+000130.135|   WARN| js: plugin:parties:party-api:warn RELEASING PARTIES SCREEN ROOT +1m (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+000130.303| ALWAYS| js: Uncaught (in promise) Error: jsonRequest of /lol-chat/v1/conversations/beffca8d-5046-46a1-9d97-15346076a905 failed with HTTP Error 404 (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+000130.584|   WARN| js: rcp-fe-lol-settings:undefined:warn Updated to verified state. +0ms (https://127.0.0.1:1751/fe/lol-settings/rcp-fe-lol-settings.js:1)
+000137.839|   OKAY| CacheStats: Removed expired entries with these stats:
+000137.839|   OKAY| CacheStats: 331 total files in cache
+000137.839|   OKAY| CacheStats: 19361780 total bytes in cache
+000137.839|   OKAY| CacheStats: 338 total use count
+000137.839|   OKAY| CacheStats: 3 unique files whose requests were served from cache
+000137.839|   OKAY| CacheStats: 7 total file requests were served from cache
+000137.839|   OKAY| CacheStats: 4760333 total bytes served from cache
+000140.056|   OKAY| Working Set Size: 148MiB (-19) Peak: 168MiB (+0)   Pagefile Usage: 141MiB (-14) Peak: 160MiB (+3)   Private Usage: 141MiB (-14)
+000152.838|   OKAY| CacheStats: Removed expired entries with these stats:
+000152.838|   OKAY| CacheStats: 44 total files in cache
+000152.838|   OKAY| CacheStats: 7250504 total bytes in cache
+000152.838|   OKAY| CacheStats: 50 total use count
+000152.838|   OKAY| CacheStats: 4 unique files whose requests were served from cache
+000152.838|   OKAY| CacheStats: 6 total file requests were served from cache
+000152.838|   OKAY| CacheStats: 3749727 total bytes served from cache
+000167.856|   OKAY| CacheStats: Removed expired entries with these stats:
+000167.856|   OKAY| CacheStats: 10 total files in cache
+000167.856|   OKAY| CacheStats: 7187963 total bytes in cache
+000167.856|   OKAY| CacheStats: 12 total use count
+000167.856|   OKAY| CacheStats: 1 unique files whose requests were served from cache
+000167.856|   OKAY| CacheStats: 2 total file requests were served from cache
+000167.856|   OKAY| CacheStats: 2926454 total bytes served from cache
+000170.058|   OKAY| Working Set Size: 134MiB (-14) Peak: 168MiB (+0)   Pagefile Usage: 127MiB (-14) Peak: 160MiB (+0)   Private Usage: 127MiB (-14)
+000182.882|   OKAY| CacheStats: Removed expired entries with these stats:
+000182.882|   OKAY| CacheStats: 24 total files in cache
+000182.882|   OKAY| CacheStats: 4089927 total bytes in cache
+000182.882|   OKAY| CacheStats: 29 total use count
+000182.882|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000182.882|   OKAY| CacheStats: 5 total file requests were served from cache
+000182.882|   OKAY| CacheStats: 4376657 total bytes served from cache
+000212.928|   OKAY| CacheStats: Removed expired entries with these stats:
+000212.928|   OKAY| CacheStats: 4 total files in cache
+000212.928|   OKAY| CacheStats: 188493 total bytes in cache
+000212.928|   OKAY| CacheStats: 4 total use count
+000212.928|   OKAY| CacheStats: 0 unique files whose requests were served from cache
+000212.928|   OKAY| CacheStats: 0 total file requests were served from cache
+000212.928|   OKAY| CacheStats: 0 total bytes served from cache
+000242.963|   OKAY| CacheStats: Removed expired entries with these stats:
+000242.963|   OKAY| CacheStats: 18 total files in cache
+000242.963|   OKAY| CacheStats: 1120375 total bytes in cache
+000242.963|   OKAY| CacheStats: 21 total use count
+000242.963|   OKAY| CacheStats: 3 unique files whose requests were served from cache
+000242.963|   OKAY| CacheStats: 3 total file requests were served from cache
+000242.963|   OKAY| CacheStats: 228537 total bytes served from cache
+000257.976|   OKAY| CacheStats: Removed expired entries with these stats:
+000257.976|   OKAY| CacheStats: 6 total files in cache
+000257.976|   OKAY| CacheStats: 742381 total bytes in cache
+000257.976|   OKAY| CacheStats: 15 total use count
+000257.976|   OKAY| CacheStats: 5 unique files whose requests were served from cache
+000257.976|   OKAY| CacheStats: 9 total file requests were served from cache
+000257.976|   OKAY| CacheStats: 2015200 total bytes served from cache
+000325.680|   WARN| js: rcp-fe-lol-settings:undefined:warn Updated to verified state. +3m (https://127.0.0.1:1751/fe/lol-settings/rcp-fe-lol-settings.js:1)
+000453.289|   OKAY| CacheStats: Removed expired entries with these stats:
+000453.289|   OKAY| CacheStats: 3 total files in cache
+000453.289|   OKAY| CacheStats: 301716 total bytes in cache
+000453.289|   OKAY| CacheStats: 3 total use count
+000453.289|   OKAY| CacheStats: 0 unique files whose requests were served from cache
+000453.289|   OKAY| CacheStats: 0 total file requests were served from cache
+000453.289|   OKAY| CacheStats: 0 total bytes served from cache
+001165.171|   OKAY| Page Fault Count: 103K (+100)
+001545.633| ALWAYS| Window 1 is now visible.
+001545.696|   OKAY| Window 1 is activated.
+001546.306| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001546.306| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001546.309| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001546.312| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001546.915| ALWAYS| js: Uncaught (in promise) Error: jsonRequest of /lol-chat/v1/conversations/active failed with HTTP Error 404 (https://127.0.0.1:1751/fe/common-libs/rcp-fe-common-libs.js:1)
+001546.975| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001546.975| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001548.651| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001548.663| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001550.215| ALWAYS| js: The sound url "lol-game-data/assets/content/src/LeagueClient/GameModeAssets/Classic_SRU/sound/sfx-ambience-loop-summonersrift.ogg" is not valid for this channel. Reason: file name expected to begin with "music-" (https://127.0.0.1:1751/fe/audio/rcp-fe-audio.js:1)
+001550.303| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001550.303| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001550.308| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001550.309| ALWAYS| js: lwd (webpack:///./lcu_obs.js?:12)
+001550.315| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001550.632|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+001550.633|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 11, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank"
+001550.649|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 11, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank", httpStatusCode = 0
+001550.649|   OKAY| Loaded url about:blank in 16 ms.
+001550.649|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+001551.306|   WARN| js: plugin:replays:replay-button:warn ReplayButton for gameId=1931864117, state=download, clickEnabled=DownloadRofl +26m (https://127.0.0.1:1751/fe/lol-shared-components/rcp-fe-lol-shared-components.js:1)
+001555.100|   WARN| js: plugin:parties:party-api:warn BUMPING PARTIES SCREEN ROOT +24m (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001555.182|   WARN| js: plugin:parties:party-api:warn PARTY CREATED (430) +85ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001555.182|   WARN| js: plugin:parties:party-api:warn BUMPING PARTIES SCREEN ROOT +2ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001555.182|   WARN| js: plugin:parties:party-api:warn PARTIES VISIBLE IN SCREEN ROOT +0ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001555.261| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001555.263| ALWAYS| js: lwd (webpack:///./lcu_obs.js?:12)
+001555.263| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001555.265|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = true
+001555.265|   OKAY| BrowserProcess::OnLoadStart browserId = 1, mainFrameId = 3, frameId = 12, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank"
+001555.288|   OKAY| BrowserProcess::OnLoadEnd browserId = 1, mainFrameId = 3, frameId = 12, mainUri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", uri = "about:blank", httpStatusCode = 0
+001555.288|   OKAY| Loaded url about:blank in 22 ms.
+001555.288|   OKAY| BrowserProcess::OnLoadingStateChange browserId = 1, mainFrameId = 3, uri = "https://riot:1d90w4vZ28YotpNVL851bw@127.0.0.1:1751/index.html", loading = false
+001555.308| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001555.308| ALWAYS| js: lwd (webpack:///./lcu_event.js?:26)
+001555.594|   WARN| js: plugin:parties:party-api:warn LOCKING PLAY BUTTON +417ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001555.594| ALWAYS| js: setIsShowingLobby (https://127.0.0.1:1751/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+001555.606|   WARN| js: plugin:parties:party-api:warn PARTIES VISIBLE IN SCREEN ROOT +2ms (https://127.0.0.1:1751/fe/lol-parties/rcp-fe-lol-parties.js:7)
+001560.236|   OKAY| Terminating via POST /process-control/v1/process/quit.
+001560.304| ALWAYS| Window 1 is now hidden.
+001560.304|   OKAY| Close browsers
+001560.317|   OKAY| Main windows received quit command.
+001560.443|   OKAY| Terminating window manager.
+001560.451|   OKAY| Shutting down RiotRemoting.
+001560.451|   OKAY| CacheStats: Purging Cache - Current cache stats:
+001560.451|   OKAY| CacheStats: 580 total files in cache
+001560.451|   OKAY| CacheStats: 37619440 total bytes in cache
+001560.451|   OKAY| CacheStats: 648 total use count
+001560.451|   OKAY| CacheStats: 36 unique files whose requests were served from cache
+001560.451|   OKAY| CacheStats: 68 total file requests were served from cache
+001560.451|   OKAY| CacheStats: 4240005 total bytes served from cache
+001560.451|   OKAY| CacheStats: Purging Cache - Overall cache stats:
+001560.451|   OKAY| CacheStats: 1020 total files in cache
+001560.451|   OKAY| CacheStats: 77862579 total bytes in cache
+001560.451|   OKAY| CacheStats: 1120 total use count
+001560.451|   OKAY| CacheStats: 54 unique files whose requests were served from cache
+001560.451|   OKAY| CacheStats: 100 total file requests were served from cache
+001560.451|   OKAY| CacheStats: 22296913 total bytes served from cache
+001560.459|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+001560.459|   OKAY| Reads - Count : 18455   Total Bytes: 17942763   Average Bytes: 972
+001560.459|   OKAY| Writes - Count : 25   Total Bytes: 1699   Average Bytes: 67
+001560.459|   OKAY| Retries: 0
+001560.459|   OKAY| Releasing browser process.
+001560.459| ALWAYS| Audio Stream Count max was 2 and the warning threshold was 4
+001560.460|   OKAY| Shutting down CEF.
+001560.579|   OKAY| Exiting ux.
+001560.583|   OKAY| Working Set Size: 88MiB Peak: 168MiB   Pagefile Usage: 81MiB Peak: 160MiB   Private Usage: 81MiB
+001560.583|   OKAY| Paged Pool Usage: 0MiB Peak: 1MiB   Non-Paged Pool Usage: 0MiB Peak: 3MiB
+001560.583|   OKAY| Committed Total: 438MiB   Committed Image: 203MiB   Committed Mapped: 161MiB   Committed Private: 73MiB   Reserved Total: 126MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 104MiB   Free Total: 3530MiB   Limit: 4095MiB   Largest Free: 2044MiB   Region Count: 2111
+001560.583|   OKAY| Page Fault Count: 126K
